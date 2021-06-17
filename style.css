@@ -12,6 +12,9 @@ button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
+a:focus {
+    border: 3px #14B6D7 solid ;
+}
 
 a:hover {
     text-decoration: none;
@@ -88,6 +91,17 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
+}
+
+.bloc-bg-texture-2::before {
+    content: "";
+    background-size: 2px 2px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
 }
 
 .texture-paper::before {
@@ -774,12 +788,17 @@ h4 {
     background-color: #F3976C;
 }
 
+.bgc-atomic-tangerine-2 {
+    background-color: #F3976C;
+    z-index: -2;
+}
+
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #F06E39;
     color: #FFFFFF!important;
 }
 
@@ -819,6 +838,11 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
+}
+
+.bg-banniere-2 {
+    background-image: url("img/la-chouette-agence-banniere.jpg");
+    z-index: -2;
 }
 
 .bg-presentation {
@@ -1039,4 +1063,18 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.description {
+    font-size: 22px;
+    text-align: center;
+}
+
+.citation {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.auteur-citation {
+    font-size: 16px;
 }
