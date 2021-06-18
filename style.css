@@ -644,7 +644,7 @@ a[data-lightbox]:hover img {
 }
 
 .snapshot-lb .modal-body {
-    padding-bottom: 45px;
+    padding-bottom: 65px;
 }
 
 .snapshot-lb .lightbox-caption {
@@ -1100,4 +1100,9 @@ h4 {
 
 .auteur-citation {
     font-size: 16px;
+}
+
+#flexbox-img {
+    display: flex;
+    justify-content: center;
 }
