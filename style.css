@@ -1102,7 +1102,22 @@ h4 {
     font-size: 16px;
 }
 
-#flexbox-img {
+#flexbox-img1 {
+    display: flex;
+    justify-content: center;
+}
+
+#flexbox-img2 {
+    display: flex;
+    justify-content: center;
+}
+
+#flexbox-img3 {
+    display: flex;
+    justify-content: center;
+}
+
+#flexbox-img4 {
     display: flex;
     justify-content: center;
 }
