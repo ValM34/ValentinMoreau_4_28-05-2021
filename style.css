@@ -13,7 +13,7 @@ button {
     outline: none!important;
 }
 a:focus {
-    border: 3px #14B6D7 solid ;
+    border: 2px black solid ;
 }
 
 a:hover {
